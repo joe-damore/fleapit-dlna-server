@@ -2,7 +2,12 @@
   "name": "fleapit-dlna-server",
   "version": "0.1.0",
   "description": "Experimental DLNA server",
-  "main": "src/index.js",
+  "main": "src/index.bundle.js",
+  "scripts": {
+    "build": "npx webpack",
+    "buildrun": "npx webpack && npm start",
+    "start": "node ."
+  },
   "repository": "git@github.com:joe-damore/fleapit-dlna-server.git",
   "author": "Joe D'Amore <joe@joedamore.me>",
   "license": "MIT",
