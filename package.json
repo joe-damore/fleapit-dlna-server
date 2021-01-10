@@ -2,7 +2,7 @@
   "name": "fleapit-dlna-server",
   "version": "0.1.0",
   "description": "Experimental DLNA server",
-  "main": "src/index.bundle.js",
+  "main": "dist/index.bundle.js",
   "scripts": {
     "build": "npx webpack",
     "buildrun": "npx webpack && npm start",
